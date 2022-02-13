@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NCKH</string>
+    <string name="todo">TODO</string>
+    <string name="dut_title">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC ĐÀ NẴNG</string>
+    <string name="ete_title">KHOA ĐIỆN TỬ - VIỄN THÔNG</string>
+    <string name="app_title">ỨNG DỤNG DI ĐỘNG CHO NHẬN DẠNG MỘT SỐ LOẠI BỆNH TRÊN CÂY TRỒNG DỰA VÀO KỸ THUẬT HỌC SÂU</string>
+    <string name="button">Chọn ảnh</string>
+    <string name="result_title">KẾT QUẢ CHẨN ĐOÁN</string>
+</resources>
