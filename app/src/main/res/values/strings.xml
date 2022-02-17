@@ -6,4 +6,7 @@
     <string name="app_title">ỨNG DỤNG DI ĐỘNG CHO NHẬN DẠNG MỘT SỐ LOẠI BỆNH TRÊN CÂY TRỒNG DỰA VÀO KỸ THUẬT HỌC SÂU</string>
     <string name="button">Chọn ảnh</string>
     <string name="result_title">KẾT QUẢ CHẨN ĐOÁN</string>
+    <string name="bien_phap">- Vệ sinh đồng ruộng, thu gom và tiêu hủy tàn dư cây bệnh.\n- Trồng giống kháng bệnh.\n- Bón vôi, phân hữu cơ, phân gà trước khi gieo trồng.\n- Luân canh với cây trồng khác, không luân canh với khoai tây.\n- Ngắt và tiêu hủy lá già, lá bị bệnh.\n- Khi có đợt gió lạnh kèm theo mưa phùn hoặc sương giá nên phun thuốc phòng.bệnh</string>
+    <string name="trieu_chung">- Bệnh gây hại từ khi cây còn nhỏ, thường thấy giai đoạn cây ra hoa đến thu hoạch. Bệnh gây hại trên lá, thân và quả. \n- Trên lá: Vết bệnh đầu tiên ở mép lá, có màu xanh tái như úng nước, sau đó lan dần vào phía trong phiến lá, màu nâu, có ranh giới rõ rệt với phần còn lại của phiến lá. Ở mặt dưới lá chổ vết bệnh có lớp mốc trắng như sương, bệnh nặng làm lá thối nhũn, thời tiết khô vết bệnh khô dòn dễ vỡ.\n- Trên thân: Vết bệnh màu nâu thẫm, hơi lõm, lan rộng bao quanh thân.\n- Trên quả: Bệnh thường gây hại ở phía trên của quả, đốm bệnh màu xanh xám đến nâu sẫm, hơi lõm, cứng và nhăn nheo, bên trong quả bị thối nhũn, dễ rụng.</string>
+    <string name="chitiet"><u>Chi tiết</u></string>
 </resources>

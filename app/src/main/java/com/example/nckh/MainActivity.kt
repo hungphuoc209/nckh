@@ -9,6 +9,7 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.sms.ezviewbinding.viewBinding
+import android.view.View
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatActivity
@@ -23,7 +24,7 @@ import com.theartofdev.edmodo.cropper.CropImage
 class MainActivity : AppCompatActivity() {
     private val binding by viewBinding(ActivityMainBinding::inflate)
     private val localModel = LocalModel.Builder().setAssetFilePath("model.tflite").build()
-    private val labels = arrayListOf("Healthy","Late Blight")
+    private val labels = arrayListOf("Lá khỏe mạnh","Bệnh đốm lá","Bệnh khảm","Bệnh mốc lá","Bệnh úa muộn","Lá khỏe mạnh","Bệnh úa muộn")
 
     private val customImageLabelerOptions = CustomImageLabelerOptions.Builder(localModel)
         .setConfidenceThreshold(0.5f)
@@ -71,6 +72,7 @@ class MainActivity : AppCompatActivity() {
                     labeler.process(image)
                         .addOnSuccessListener {
                             binding.tvResult.text = labels[it[0].index].toString()
+                            if(it[0].index!=0) binding.btnDetail.visibility = View.VISIBLE
                         }
                         .addOnFailureListener {
                             binding.tvResult.text = it.localizedMessage
@@ -82,6 +84,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnAdd.setOnClickListener{
             cropActivityLauncher.launch(null)
+        }
+
+        binding.btnDetail.setOnClickListener{
+            val intent = Intent(this@MainActivity,DetailActivity::class.java)
+            startActivity(intent)
         }
     }
 }
